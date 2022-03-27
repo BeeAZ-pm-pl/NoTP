@@ -1,0 +1,13 @@
+name: NoTP
+main: BeeAZZ\NoTP\Main
+version: 0.0.1
+api: 4.0.0
+load: POSTWORLD
+author: BeeAZZ
+commands:
+ notp:
+  description: "Toggle NoTP"
+  permission: notp.command
+permissions:
+  notp.command:
+   default: true
